@@ -12,8 +12,8 @@ function playRound(playerSelection, computerSelection) {
         return "Invalid input";
     }
 
-    console.log(`Your selection ${playerSelection}`)
-    console.log(`Computer's selection ${computerSelection}`)
+    console.log(`Your selection: ${playerSelection}`)
+    console.log(`Computer's selection: ${computerSelection}`)
     if (playerSelection.toLowerCase() === computerSelection.toLowerCase()) {
         return "Draw! Try again";
     }
